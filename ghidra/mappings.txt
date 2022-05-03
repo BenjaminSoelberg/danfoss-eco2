@@ -1,0 +1,211 @@
+CPUSS_CONFIG,0x40100000,Configuration register
+CPUSS_SYSREQ,0x40100004,SYSCALL control register
+CPUSS_SYSARG,0x40100008,SYSARG control register
+CPUSS_PROTECTION,0x4010000C,Protection control register
+CPUSS_PRIV_ROM,0x40100010,ROM privilege register
+CPUSS_PRIV_RAM,0x40100014,RAM privilege register
+CPUSS_PRIV_FLASH,0x40100018,ROM privilege register
+CPUSS_WOUNDING,0x4010001C,Wounding register
+CPUSS_FLASH_CTL,0x40100030,FLASH control register
+CPUSS_ROM_CTL,0x40100034,ROM control register
+GPIO_PRT0_DR,0x40040000,Port output data register
+GPIO_PRT0_PS,0x40040004,Port IO pad state register
+GPIO_PRT0_PC,0x40040008,Port configuration register
+GPIO_PRT0_INTR_CFG,0x4004000C,Port interrupt configuration register
+GPIO_PRT0_INTR,0x40040010,Port interrupt status register
+GPIO_PRT0_PC2,0x40040018,Port configuration register 2
+GPIO_PRT0_DR_SET,0x40040040,Port output data set register
+GPIO_PRT0_DR_CLR,0x40040044,Port output data clear register
+GPIO_PRT0_DR_INV,0x40040048,Port output data invert register
+GPIO_PRT1_DR,0x40040100,Port output data register. See GPIO_PRT0_DR for the details of bit fields.
+GPIO_PRT1_PS,0x40040104,Port IO pad state register. See GPIO_PRT0_PS for the details of bit fields.
+GPIO_PRT1_PC,0x40040108,Port configuration register. See GPIO_PRT0_PC for the details of bit fields.
+GPIO_PRT1_INTR_CFG,0x4004010C,Port interrupt configuration register. See GPIO_PRT0_INTR_CFG for the details of bit fields.
+GPIO_PRT1_INTR,0x40040110,Port interrupt status register. See GPIO_PRT0_INTR for the details of bit fields.
+GPIO_PRT1_PC2,0x40040118,Port configuration register 2. See GPIO_PRT0_PC2 for the details of bit fields.
+GPIO_PRT1_DR_SET,0x40040140,Port output data set register. See GPIO_PRT0_DR_SET for the details of bit fields.
+GPIO_PRT1_DR_CLR,0x40040144,Port output data clear register. See GPIO_PRT0_DR_CLR for the details of bit fields.
+GPIO_PRT1_DR_INV,0x40040148,Port output data invert register. See GPIO_PRT0_DR_INV for the details of bit fields.
+GPIO_PRT2_DR,0x40040200,Port output data register
+GPIO_PRT2_PS,0x40040204,Port IO pad state register
+GPIO_PRT2_PC,0x40040208,Port configuration register
+GPIO_PRT2_INTR_CFG,0x4004020C,Port interrupt configuration register
+GPIO_PRT2_INTR,0x40040210,Port interrupt status register
+GPIO_PRT2_PC2,0x40040218,Port configuration register 2
+GPIO_PRT0_DR_SET,0x40040240,Port output data set register. See GPIO_PRT0_DR_SET for the details of bit fields.
+GPIO_PRT0_DR_CLR,0x40040244,Port output data clear register. See GPIO_PRT0_DR_CLR for the details of bit fields.
+GPIO_PRT0_DR_INV,0x40040248,Port output data invert register. See GPIO_PRT0_DR_INV for the details of bit fields.
+GPIO_PRT3_DR,0x40040300,Port output data register
+GPIO_PRT3_PS,0x40040304,Port IO pad state register
+GPIO_PRT3_PC,0x40040308,Port configuration register
+GPIO_PRT3_INTR_CFG,0x4004030C,Port interrupt configuration register
+GPIO_PRT3_INTR,0x40040310,Port interrupt status register
+GPIO_PRT3_PC2,0x40040318,Port configuration register 2
+GPIO_PRT3_DR_SET,0x40040340,Port output data set register. See GPIO_PRT0_DR_SET for the details of bit fields.
+GPIO_PRT3_DR_CLR,0x40040344,Port output data clear register. See GPIO_PRT0_DR_CLR for the details of bit fields.
+GPIO_PRT3_DR_INV,0x40040348,Port output data invert register. See GPIO_PRT0_DR_INV for the details of bit fields.
+GPIO_INTR_CAUSE0,0x40041000,Interrupt port cause register
+GPIO_INTR_CAUSE1,0x40041004,Interrupt port cause register. See GPIO_INTR_CAUSE0 for the details of bit fields.
+GPIO_INTR_CAUSE2,0x40041008,Interrupt port cause register. See GPIO_INTR_CAUSE0 for the details of bit fields.
+GPIO_INTR_CAUSE3,0x4004100C,Interrupt port cause register. See GPIO_INTR_CAUSE0 for the details of bit fields.
+HSIOM_PORT_SEL0,0x40020000,Port selection register
+HSIOM_PORT_SEL1,0x40020100,Port selection register. See HSIOM_PORT_SEL0 for the details of bit fields.
+HSIOM_PORT_SEL2,0x40020200,Port selection register
+HSIOM_PORT_SEL3,0x40020300,Port selection register
+HSIOM_PUMP_CTL,0x40022000,Pump control
+PERI_DIV_CMD,0x40010000,Divider command register
+PERI_PCLK_CTL0,0x40010100,Programmable clock control register
+PERI_PCLK_CTL1,0x40010104,Programmable clock control register. See PERI_PCLK_CTL0 for the details of bit fields.
+PERI_PCLK_CTL2,0x40010108,Programmable clock control register. See PERI_PCLK_CTL0 for the details of bit fields.
+PERI_PCLK_CTL3,0x4001010C,Programmable clock control register. See PERI_PCLK_CTL0 for the details of bit fields.
+PERI_DIV_16_CTL0,0x40010300,Divider control register (for 16.0 divider)
+PERI_DIV_16_CTL1,0x40010304,Divider control register (for 16.0 divider). See PERI_DIV_16_CTL0 for the details of bit fields.
+PERI_DIV_16_CTL2,0x40010308,Divider control register (for 16.0 divider). See PERI_DIV_16_CTL0 for the details of bit fields.
+PERI_DIV_16_CTL3,0x4001030C,Divider control register (for 16.0 divider). See PERI_DIV_16_CTL0 for the details of bit fields.
+SCB_CTRL,0x40060000,Generic control register.
+SCB_STATUS,0x40060004,Generic status register.
+SCB_I2C_CTRL,0x40060060,I2C control register.
+SCB_I2C_STATUS,0x40060064,I2C status register.
+SCB_I2C_M_CMD,0x40060068,I2C master command register.
+SCB_I2C_S_CMD,0x4006006C,I2C slave command register.
+SCB_I2C_CFG,0x40060070,I2C configuration register.
+SCB_TX_CTRL,0x40060200,Transmitter control register.
+SCB_TX_FIFO_CTRL,0x40060204,Transmitter FIFO control register.
+SCB_TX_FIFO_STATUS,0x40060208,Transmitter FIFO status register.
+SCB_TX_FIFO_WR,0x40060240,Transmitter FIFO write register.
+SCB_RX_CTRL,0x40060300,Receiver control register.
+SCB_RX_FIFO_CTRL,0x40060304,Receiver FIFO control register.
+SCB_RX_FIFO_STATUS,0x40060308,Receiver FIFO status register.
+SCB_RX_MATCH,0x40060310,Slave address and mask register.
+SCB_RX_FIFO_RD,0x40060340,Receiver FIFO read register.
+SCB_RX_FIFO_RD_SILENT,0x40060344,Receiver FIFO read register.
+SCB_EZ_DATA0,0x40060400,Memory buffer registers.
+SCB_EZ_DATA1,0x40060404,Memory buffer registers. See SCB_EZ_DATA0 for the details of bit fields.
+SCB_EZ_DATA2,0x40060408,Memory buffer registers. See SCB_EZ_DATA0 for the details of bit fields.
+SCB_EZ_DATA3,0x4006040C,Memory buffer registers. See SCB_EZ_DATA0 for the details of bit fields.
+SCB_EZ_DATA4,0x40060410,Memory buffer registers. See SCB_EZ_DATA0 for the details of bit fields.
+SCB_EZ_DATA5,0x40060414,Memory buffer registers. See SCB_EZ_DATA0 for the details of bit fields.
+SCB_EZ_DATA6,0x40060418,Memory buffer registers. See SCB_EZ_DATA0 for the details of bit fields.
+SCB_EZ_DATA7,0x4006041C,Memory buffer registers. See SCB_EZ_DATA0 for the details of bit fields.
+SCB_EZ_DATA8,0x40060420,Memory buffer registers. See SCB_EZ_DATA0 for the details of bit fields.
+SCB_EZ_DATA9,0x40060424,Memory buffer registers. See SCB_EZ_DATA0 for the details of bit fields.
+SFLASH_SILICON_ID,0x0FFFF144,Silicon ID
+SFLASH_HIB_KEY_DELAY,0x0FFFF150,Hibernate wakeup value for PWR_KEY_DELAY
+SFLASH_DPSLP_KEY_DELAY,0x0FFFF152,DeepSleep wakeup value for PWR_KEY_DELAY
+SFLASH_SWD_CONFIG,0x0FFFF154,SWD pinout selector (not present in TSG4/TSG5-M)
+SFLASH_SWD_LISTEN,0x0FFFF158,Listen Window Length
+SFLASH_FLASH_START,0x0FFFF15C,Flash Image Start Address
+SFLASH_CSD_TRIM1_HVIDAC,0x0FFFF160,CSD Trim Data for HVIDAC operation
+SFLASH_CSD_TRIM2_HVIDAC,0x0FFFF161,CSD Trim Data for HVIDAC operation
+SFLASH_CSD_TRIM1_CSD,0x0FFFF162,CSD Trim Data for (normal) CSD operation
+SFLASH_CSD_TRIM2_CSD,0x0FFFF163,CSD Trim Data for (normal) CSD operation
+SFLASH_IMO_TRIM_USBMODE_24,0x0FFFF1BE,USB IMO TRIM 24MHz
+SFLASH_IMO_TRIM_USBMODE_48,0x0FFFF1BF,USB IMO TRIM 48MHz
+SFLASH_IMO_TCTRIM_LT0,0x0FFFF1CC,IMO TempCo Trim Register (SRSS-Lite)
+SFLASH_IMO_TCTRIM_LT1,0x0FFFF1CD,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bit fields.
+SFLASH_IMO_TCTRIM_LT2,0x0FFFF1CE,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bit fields.
+SFLASH_IMO_TCTRIM_LT3,0x0FFFF1CF,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT4,0x0FFFF1D0,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT5,0x0FFFF1D1,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT6,0x0FFFF1D2,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT7,0x0FFFF1D3,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT8,0x0FFFF1D4,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT9,0x0FFFF1D5,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT10,0x0FFFF1D6,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT11,0x0FFFF1D7,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT12,0x0FFFF1D8,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT13,0x0FFFF1D9,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT14,0x0FFFF1DA,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT15,0x0FFFF1DB,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT16,0x0FFFF1DC,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT17,0x0FFFF1DD,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT18,0x0FFFF1DE,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT19,0x0FFFF1DF,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT20,0x0FFFF1E0,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT21,0x0FFFF1E1,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT22,0x0FFFF1E2,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT23,0x0FFFF1E3,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TCTRIM_LT24,0x0FFFF1E4,IMO TempCo Trim Register (SRSS-Lite). See SFLASH_IMO_TCTRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT0,0x0FFFF1E5,IMO Frequency Trim Register (SRSS-Lite)
+SFLASH_IMO_TRIM_LT1,0x0FFFF1E6,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT2,0x0FFFF1E7,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT3,0x0FFFF1E8,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT4,0x0FFFF1E9,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT5,0x0FFFF1EA,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT6,0x0FFFF1EB,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT7,0x0FFFF1EC,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT8,0x0FFFF1ED,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT9,0x0FFFF1EE,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT10,0x0FFFF1EF,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT11,0x0FFFF1F0,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT12,0x0FFFF1F1,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitields.
+SFLASH_IMO_TRIM_LT13,0x0FFFF1F2,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT14,0x0FFFF1F3,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT15,0x0FFFF1F4,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT16,0x0FFFF1F5,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT17,0x0FFFF1F6,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT18,0x0FFFF1F7,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT19,0x0FFFF1F8,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT20,0x0FFFF1F9,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT21,0x0FFFF1FA,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT22,0x0FFFF1FB,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT23,0x0FFFF1FC,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SFLASH_IMO_TRIM_LT24,0x0FFFF1FD,IMO Frequency Trim Register (SRSS-Lite). See SFLASH_IMO_TRIM_LT0 for the details of bitfields.
+SPCIF_GEOMETRY,0x40110000,Flash/NVL geometry information
+SPCIF_INTR,0x401107F0,SPCIF interrupt request register
+SPCIF_INTR_SET,0x401107F4,SPCIF interrupt set request register
+SPCIF_INTR_MASK,0x401107F8,SPCIF interrupt mask register
+SPCIF_INTR_MASKED,0x401107FC,SPCIF interrupt masked request register
+PWR_CONTROL,0x40030000,Power Mode Control
+PWR_KEY_DELAY,0x40030004,Power System Key&Delay Register
+PWR_DDFT_SELECT,0x4003000C,Power DDFT Mode Selection Register
+TST_MODE,0x40030014,Test Mode Control Register
+CLK_SELECT,0x40030028,Clock Select Register
+CLK_ILO_CONFIG,0x4003002C,ILO Configuration
+CLK_IMO_CONFIG,0x40030030,IMO Configuration
+CLK_DFT_SELECT,0x40030034,Clock DFT Mode Selection Register
+WDT_DISABLE_KEY,0x40030038,Watchdog Disable Key Register
+WDT_COUNTER,0x4003003C,Watchdog Counter Register
+WDT_MATCH,0x40030040,Watchdog Match Register
+SRSS_INTR,0x40030044,SRSS Interrupt Register
+SRSS_INTR_SET,0x40030048,SRSS Interrupt Set Register
+SRSS_INTR_MASK,0x4003004C,SRSS Interrupt Mask Register
+RES_CAUSE,0x40030054,Reset Cause Observation Register
+PWR_BG_TRIM1,0x40030F00,Bandgap Trim Register
+PWR_BG_TRIM2,0x40030F04,Bandgap Trim Register
+CLK_IMO_SELECT,0x40030F08,IMO Frequency Select Register
+CLK_IMO_TRIM1,0x40030F0C,IMO Trim Register
+CLK_IMO_TRIM2,0x40030F10,IMO Trim Register
+PWR_PWRSYS_TRIM1,0x40030F14,Power System Trim Register
+CLK_IMO_TRIM3,0x40030F18,IMO Trim Register
+TCPWM_CTRL,0x40050000,TCPWM control register 0.
+TCPWM_CMD,0x40050008,TCPWM command register.
+TCPWM_INTR_CAUSE,0x4005000C,TCPWM Counter interrupt cause register.
+TCPWM_CNT0_CTRL,0x40050100,Counter control register
+TCPWM_CNT0_STATUS,0x40050104,Counter status register
+TCPWM_CNT0_COUNTER,0x40050108,Counter count register
+TCPWM_CNT0_CC,0x4005010C,Counter compare/capture register
+TCPWM_CNT0_CC_BUFF,0x40050110,Counter buffered compare/capture register
+TCPWM_CNT0_PERIOD,0x40050114,Counter period register
+TCPWM_CNT0_PERIOD_BUFF,0x40050118,Counter buffered period register
+TCPWM_CNT0_TR_CTRL0,0x40050120,Counter trigger control register 0
+TCPWM_CNT0_TR_CTRL1,0x40050124,Counter trigger control register 1
+TCPWM_CNT0_TR_CTRL2,0x40050128,Counter trigger control register 2
+TCPWM_CNT0_INTR,0x40050130,Interrupt request register.
+TCPWM_CNT0_INTR_SET,0x40050134,Interrupt set request register.
+TCPWM_CNT0_INTR_MASK,0x40050138,Interrupt mask register.
+TCPWM_CNT0_INTR_MASKED,0x4005013C,Interrupt masked request register
+ROMTABLE_ADDR,0xF0000000,Link to Cortex M0 ROM Table.
+ROMTABLE_DID,0xF0000FCC,Device Type Identifier register.
+ROMTABLE_PID4,0xF0000FD0,Peripheral Identification Register 4.
+ROMTABLE_PID5,0xF0000FD4,Peripheral Identification Register 5.
+ROMTABLE_PID6,0xF0000FD8,Peripheral Identification Register 6.
+ROMTABLE_PID7,0xF0000FDC,Peripheral Identification Register 7.
+ROMTABLE_PID0,0xF0000FE0,Peripheral Identification Register 0.
+ROMTABLE_PID1,0xF0000FE4,Peripheral Identification Register 1.
+ROMTABLE_PID2,0xF0000FE8,Peripheral Identification Register 2.
+ROMTABLE_PID3,0xF0000FEC,Peripheral Identification Register 3.
+ROMTABLE_CID0,0xF0000FF0,Component Identification Register 0.
+ROMTABLE_CID1,0xF0000FF4,Component Identification Register 1.
+ROMTABLE_CID2,0xF0000FF8,Component Identification Register 2.
+ROMTABLE_CID3,0xF0000FFC,Component Identification Register 3.

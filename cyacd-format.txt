@@ -1,0 +1,31 @@
+
+Format of .cyacd File for PSoC® 3 or PSoC 5LP Bootloader - KBA216138
+Version: **
+
+ 
+Question:
+
+What is the format for the application and code data file (.cyacd) for a PSoC 3 or PSoC 5 Bootloader? 
+
+ 
+Answer:
+
+The .cyacd file consists of a header record followed by flash data records. Each data record in the .cyacd file represents an entire row of flash data. It also includes the data for the corresponding ECC flash row if the ECC flash is used to store the configuration data for a bootloadable project. The data is stored as ASCII data in Big Endian format.
+
+The header record specifies the device revision and has the following format: 
+
+[4-byte SiliconID][1-byte SiliconRev][1-byte Checksum Type] 
+
+The data records have the following format: 
+
+[1-byte ArrayID][2-byte RowNumber][2-byte DataLength][N-byte Data][1byte Checksum] 
+
+There are two ways to compute the checksum depending on the Bootloader configuration:
+
+    If “Basic Summation” is selected, it is computed by summing all bytes (excluding the checksum) and taking the 2's complement.
+    If “CRC-16-CCITT” is selected, it is computed using the 16-bit CCITT CRC method. 
+
+When a Bootloader host uses a .cyacd file to send commands to the Bootloader, it parses the file. The parsing logic is in:
+
+<install directory>\PSoC Creator\<version number>\PSoC Creator\cybootloaderutils\cybtldr_parse.c
+
